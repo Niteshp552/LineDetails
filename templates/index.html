@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Order Details</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Order Details</h1>
+    <p><strong>Order ID:</strong> {{ order['id'] }}</p>
+    <p><strong>Order Name:</strong> {{ order['name'] }}</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Line Item ID</th>
+                <th>Name</th>
+                <th>Status</th>
+                <th>Start Date</th>
+                <th>End Date</th>
+                <th>Budget</th>
+                <th>Cost Type</th>
+                <th>Rate</th>
+                <th>Creative Size</th>
+                <th>Country</th>
+                <th>Inventory</th>
+                <th>Custom Targeting</th>
+                <th>Frequency Cap</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for line_item in line_items %}
+            <tr>
+                <td>{{ line_item['id'] }}</td>
+                <td>{{ line_item['name'] }}</td>
+                <td>{{ line_item['status'] }}</td>
+                <td>{{ line_item['start_date'] }}</td>
+                <td>{{ line_item['end_date'] }}</td>
+                <td>{{ line_item['budget'] }}</td>
+                <td>{{ line_item['cost_type'] }}</td>
+                <td>{{ line_item['rate'] }}</td>
+                <td>{{ line_item['creative_size'] }}</td>
+                <td>{{ line_item['country'] }}</td>
+                <td>{{ line_item['inventory'] }}</td>
+                <td>{{ line_item['custom_targeting'] }}</td>
+                <td>{{ line_item['frequency_cap'] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <br>
+    <form action="/download_csv" method="get">
+        <input type="hidden" name="order_id" value="{{ order['id'] }}">
+        <button type="submit">Download CSV</button>
+    </form>
+</body>
+</html>
