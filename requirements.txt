@@ -1,0 +1,5 @@
+streamlit~=1.33.0
+googleads~=41.0.0
+requests~=2.31.0
+oauthlib~=3.2.2
+Flask~=3.0.3
