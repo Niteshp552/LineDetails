@@ -1,0 +1,9 @@
+ad_manager:
+  application_name: "GAM Automation"
+  network_code: "7176"
+  path_to_private_key_file: "Key.json"
+  impersonated_email: "gam-automation@nitesh-new-project-424111.iam.gserviceaccount.com"
+oauth2_client:
+  client_id: "1030206847547-vu058lj3e2r2uguprguvb7teaaugvg31.apps.googleusercontent.com"
+  client_secret: "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"
+  refresh_token: "1//04WCvYLDJ1rvrCgYIARAAGAQSNwF-L9IrMpOujH0Xxaqz_4iLIUrgaNvlaPN8RBAHITt8dagUVx72uMzrrWkQITXRnmNA3ro2Am0"

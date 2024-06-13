@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "nitesh-new-project-424111",
+  "private_key_id": "eb3d2d119b6c575de37e2f1a8318d906929ae8b7",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDazwo83BcRZC2s\nJaTIq7QUwyzGYnmCNRqBfIFiSgVtL8Qc22WgD5bxL1x5RKMi/e54A+ROlJ8sTqMa\nFQOZgHACfi6v9pHElTop4suqlNm9Tj7ePdgB7EHVqqZlt7Wtv9SrGZO3RDz6EKqD\n0qYTOHngg9V0BIidDOW2hs66GoSPXNinVGBWj0HX9ehKt/gcVGcXdegowsdKs0pc\no4kCO72gkZ99+aLgjWnGcuvr9LHyF8wyc1VT4/bRSsky1PsWDEFQL8tsg9gikFce\nYXzbxq0ktHQHfbXmdA+0f5bIm85HyaJKi3zrX4Wrb7DOXJa1O5UL2/DfolE7RaiZ\nXquYW7E/AgMBAAECggEAIybMxb8z44LdBYFcqjJPcWBzkoFidOUUF4ZJgOFUYtig\nIGSsvFyUyrVpnT/GF4qE43n4lRkyQxt0/20t0Vy9YeEknfc2Lscse2sofgSAwHVQ\nC0MTLyfl4a4TIlczlDCzuTMYNIJ9a0z/H8NZE9BoYAW95nAOBHD8fGjG0EYPUrpz\nDbd+NCyJ5w8vhJ9rdhpwAWaCbiWwF/Y+IA8hmcPx/eld/rH3+7qxOqldcQC8hlM5\nCqt+yqXuz/KXcAklQi5CipEHkzJfHgeACTUBoL1EroMTgHFygtNuuYsSYo7ywbve\nuLakVgDasDxLst9L04OhDHoV6iu1gWLIfztY6jt6dQKBgQD8ezndTS+AFzKkUaF0\nvLJyXwQ7Wlf9fuHFlNpx44Z4swSAfHMedrRwr2TJscU2la0K2y7yYIFHIgSJb7kE\npl2gWjXIAAs1xNZ5K218zxiJOUBdE1yFWpv1xqIz48XAki13FhGT391LecBWqO/1\nn++47nbwOg9OI73s0Jm5Ya9aNQKBgQDd265DfES6mhyrcy/fIzybyt/ZpsTL3xeO\nR7yZx2RXw2q3vSP5/usTlbKGTHdLoRatZ71XmrQRww6VMIx/TBWocSFQp5gmpFJY\nL/uN0vWEztpSUXCErnhSzWvixnVrEwygY42kBf8qQOHX/w4ygN3k12BZThYHZ8+o\n9tA/wIRsIwKBgQDFg4zn8Ar51Kv8WhPJpBihWm2QFQQCvnDWxbUCJXE8GSercDAK\no+hSwxNAqf5SzlK5zG/0ksRvplAQSENgPNm/qPKrzET4wkzaK7wSSFy0dQJCDfRy\nKkkZw1N+7m/0TyacI7qKiTWwZsWtxak66Ox7KqoHEhSJF3LrwOCRYrbwBQKBgDBC\niTXE4m5096eT9uXjFFwPVYJS9Jwke0tH747EAN/WcnBlhF3tRdWMyrjMCWc6M2Sl\nHFriHCmA9LsfRHCsbEmn0kdpLX+6Xu8wANho+19YX8VoUcGK8kGQzdcWtJQGIMkC\n3ty/MTJPytDheoUh4yLUdvD2O3SA8HsgtUwo5KVhAoGAUuNmA+aFIUi/u8uLLtrw\n8FH1RuEbQ5MHG6QMsxDEd/M0RsJQbYf1RzDNDm9yViYnuZ2vAYGVRvVwnqVg+3L1\nCuHQo7CqXDiZFyFtQI9IqjTUOchzktLG4Hchv1YtC3fA+GWQY9LXxFHlwiz8gv1b\nff2+0VC4vuYnCUA3Jp86hlY=\n-----END PRIVATE KEY-----\n",
+  "client_email": "gam-automation@nitesh-new-project-424111.iam.gserviceaccount.com",
+  "client_id": "114463433405559530221",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gam-automation%40nitesh-new-project-424111.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
